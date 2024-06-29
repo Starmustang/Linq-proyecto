@@ -12,3 +12,4 @@ D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\refint\Linq proyecto.dll
 D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.pdb
 D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.genruntimeconfig.cache
 D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\ref\Linq proyecto.dll
+D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.sourcelink.json
