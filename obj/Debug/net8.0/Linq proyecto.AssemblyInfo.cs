@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Linq proyecto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a101c696365a38774b7771b6459e0da4084cd5a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+381dd30e5564b5505ccbe5c99e8713edd01f56e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Linq proyecto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Linq proyecto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
