@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2E9981-D673-47DD-A547-E0560FB116D4}|Linq proyecto.csproj|d:\\platzi\\c# y backend ruta\\linq c#\\linq proyecto\\linqqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2E9981-D673-47DD-A547-E0560FB116D4}|Linq proyecto.csproj|solutionrelative:linqqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED2E9981-D673-47DD-A547-E0560FB116D4}|Linq proyecto.csproj|d:\\platzi\\c# y backend ruta\\linq c#\\linq proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2E9981-D673-47DD-A547-E0560FB116D4}|Linq proyecto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:42:55.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinqQueries.cs",
+              "DocumentMoniker": "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\LinqQueries.cs",
+              "RelativeDocumentMoniker": "LinqQueries.cs",
+              "ToolTip": "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\LinqQueries.cs",
+              "RelativeToolTip": "LinqQueries.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAkwFEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T17:58:37.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

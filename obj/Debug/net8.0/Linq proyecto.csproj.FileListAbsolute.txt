@@ -13,3 +13,19 @@ D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.pdb
 D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.genruntimeconfig.cache
 D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\ref\Linq proyecto.dll
 D:\Platzi\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.sourcelink.json
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\bin\Debug\net8.0\Linq proyecto.exe
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\bin\Debug\net8.0\Linq proyecto.deps.json
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\bin\Debug\net8.0\Linq proyecto.runtimeconfig.json
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\bin\Debug\net8.0\Linq proyecto.dll
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\bin\Debug\net8.0\Linq proyecto.pdb
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.AssemblyInfoInputs.cache
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.AssemblyInfo.cs
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.csproj.CoreCompileInputs.cache
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.sourcelink.json
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.dll
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\refint\Linq proyecto.dll
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.pdb
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\Linq proyecto.genruntimeconfig.cache
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\obj\Debug\net8.0\ref\Linq proyecto.dll
+D:\Platzi\C# y backend ruta\Linq c#\Linq proyecto\bin\Debug\net8.0\books.json

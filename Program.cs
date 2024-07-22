@@ -13,13 +13,13 @@ class Program
 
         //System.Console.WriteLine($"la coleccion tiene algun libro del año 2005 -{queries.Coleccionen2005()}");
 
-       // System.Console.WriteLine($"todos los libros tienen el estado PUBLISH -{queries.Estatusdeloslibros()}");
+        // System.Console.WriteLine($"todos los libros tienen el estado PUBLISH -{queries.Estatusdeloslibros()}");
 
         //ImprimirValores(queries.Coleccion250InAction());
 
         //ImprimirValores(queries.CategoriaPython());
 
-        
+
 
         //libros de java ordenados por nombre
         //ImprimirValores(queries.LibrosJavaPorOrdenAsendente());
@@ -31,7 +31,17 @@ class Program
         //ImprimirValores(queries.TresPrimerosLibrosJavaOrdenadosPorfecha());
 
         //Una lista de los 4 libros con mas paginas saltandome el primero y el segundo
-        ImprimirValores(queries.Librosde400PorOrdenDesendente());
+        //ImprimirValores(queries.Librosde400PorOrdenDesendente());
+
+
+        //muestra la cantidad de libros que tienen entre 200 y 500 paginas
+        //Console.WriteLine("cantidad de libros con entre 200 y 500 paginas " +queries.LibrosCount());
+
+        //muestra el valor minimo de fecha
+        //Console.WriteLine($"fecha minima {queries.LibrosMin()}");
+
+        //muestra el maximo de paginas que tiene un libro
+        Console.WriteLine($"lo maximo de paginas que hay es este {queries.Maximodepaginas()}");
 
         void ImprimirValores(IEnumerable<Book> listdelibros){
             System.Console.WriteLine("{0, -60} {1, 15} {2, 11} {3, 17}\n", "Titulo", "N. Paginas", "Fecha publicacion", "Categoria"); //los valores de entre {} nos permiten decir le al sistema que queremos que se impriman de una parte hasta otra

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Platzi\\Linq c#\\Linq proyecto\\Linq proyecto.csproj": {}
+    "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\Linq proyecto.csproj": {}
   },
   "projects": {
-    "D:\\Platzi\\Linq c#\\Linq proyecto\\Linq proyecto.csproj": {
+    "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\Linq proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Platzi\\Linq c#\\Linq proyecto\\Linq proyecto.csproj",
+        "projectUniqueName": "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\Linq proyecto.csproj",
         "projectName": "Linq proyecto",
-        "projectPath": "D:\\Platzi\\Linq c#\\Linq proyecto\\Linq proyecto.csproj",
+        "projectPath": "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\Linq proyecto.csproj",
         "packagesPath": "C:\\Users\\m\\.nuget\\packages\\",
-        "outputPath": "D:\\Platzi\\Linq c#\\Linq proyecto\\obj\\",
+        "outputPath": "D:\\Platzi\\C# y backend ruta\\Linq c#\\Linq proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\m\\AppData\\Roaming\\NuGet\\NuGet.Config"
