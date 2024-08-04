@@ -60,7 +60,7 @@ namespace Linq_proyecto
             public IEnumerable<Book> TresPrimerosLibrosJavaOrdenadosPorfecha()
             {
                 return librosCollection.Where(p=>p.Categories.Contains("Java")).OrderBy(p=>p.PublishedDate).TakeLast(3); //takelast permite tomar una cantidad deceada de los ultimos elementos de la coleccion
-        }
+            }
 
             public IEnumerable<Book> Librosde400PorOrdenDesendente()
             {
@@ -83,8 +83,68 @@ namespace Linq_proyecto
         {
             return librosCollection.Max(p => p.PageCount); // devuelve el valor maximo de una lista
         }
+        
+        public Book MinBydepaginas()
+        {
+            return librosCollection.Where(p => p.PageCount>0).MinBy(p => p.PageCount); //en este caso se devuelve toda la informacion del elemento que cumple con las condiciones
 
-    }
+        }
 
-    
+        public Book MaxByDeFecha()
+        {
+            return librosCollection.MaxBy(p => p.PublishedDate);
+        }
+
+        public int SumPagecountEntre0y500()
+        {
+            return librosCollection.Where(p => p.PageCount >=0 && p.PageCount <= 500).Sum(p =>p.PageCount);
+        }
+
+        public string titulosDespuesDel2015Concatenados()
+        {
+            return librosCollection.Where(p => p.PublishedDate.Year > 2015).Aggregate("", (TitulosLibros, next) => //aggregate va agregando elementos a un grupo
+            {
+                if (TitulosLibros != string.Empty)
+                {
+                    TitulosLibros += " - " + next.Title;
+                }
+                else
+                {
+                    TitulosLibros += next.Title;
+                }
+
+                return TitulosLibros;
+            });
+        }
+
+        public double promedioDeLibros()
+        {
+            return librosCollection.Average(p => p.Title.Length);
+        }
+
+        public double PromedioTarea()
+        {
+            return librosCollection.Where(p => p.PageCount > 0).Average(p => p.PageCount); //average calcula el promedio de lo que se busca devuelve double
+        }
+
+        public IEnumerable<IGrouping<int, Book>> GrupodeLibrosDespuesDel2000()
+        {
+            return librosCollection.Where(p => p.PublishedDate.Year >= 2000).GroupBy(p => p.PublishedDate.Year); //Group by agrupa datos en base a lo que se solicite, tiene una estructura diferente como la que se puede ver en la funcion 
+        }
+
+        public ILookup<char, Book> DiccionarioDelibrosConILookup()
+        {
+            return librosCollection.ToLookup(p => p.Title[0], p => p);
+        }
+
+        public IEnumerable<Book> Librosconmasde500Pagydespues2005()
+        {
+            var librosDespuesdel2005 = librosCollection.Where(p => p.PublishedDate.Year > 2005);
+
+            var librosConMasde500pag = librosCollection.Where(p => p.PageCount > 500);
+
+            return librosDespuesdel2005.Join(librosConMasde500pag, p => p.Title, x=> x.Title, (p, x) => p);
+        }
+
+    }    
 }
